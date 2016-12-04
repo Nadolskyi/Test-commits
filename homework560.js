@@ -1,6 +1,4 @@
-// JavaScript File
-function sum (n){
-    var countSum = [];
+function sum (n){  var countSum = [];
     var countDruz = [];
         for (var i=200; i <= n; i++) { 
             var sum = 0;
@@ -9,7 +7,6 @@ function sum (n){
             if (countSum[j] == i && countSum[i] == j) { countDruz[i] = countSum[i]};
         }
      }
-  
-    return countDruz;
+      return countDruz;
 }
 console.log(sum (300));
